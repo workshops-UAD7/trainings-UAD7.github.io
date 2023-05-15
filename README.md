@@ -1,6 +1,13 @@
 # trainings-UAD7.github.io
 Training materials from The University of Arizona, Data Science Institute
 
+<p><img src="https://github.com/clizarraga-UAD7/LearningResources/raw/main/BSRL%20UofA.png" width=840>
+  
+## Trainings
+  
+* [Command Line Interface (CLI)](https://github.com/workshops-UAD7/CLI-shell)
+  
+
 ***
 
 Created: 05/14/2023 (C. Lizarraga); 
