@@ -1,19 +1,25 @@
-# Welcome to MkDocs
+# Welcome to the UA Data Science Trainings
 
 :construction: :construction: :construction: :construction: :construction: :construction:  :construction:  :construction:  :construction: :construction: :construction: :construction: 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![](./images/SabinoCanyon.jpeg)
 
-## Commands
+***
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Available training materials:
 
-## Project layout
+* [Command Line Interface - Unix Shell](https://workshops-uad7.github.io/CommandLineInterface/)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+***
+
+Created: 05/11/2023;  Last update: 05/16/2023<br>
+Carlos Lizárraga<br>
+Data Science Institute<br>
+University of Arizona
+
+
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="128"> \  [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
+[<img src="https://datascience.arizona.edu/sites/default/files/Data%20Science%20Institute_Webheader%20%281%29.svg" width="256">](https://datascience.arizona.edu)
