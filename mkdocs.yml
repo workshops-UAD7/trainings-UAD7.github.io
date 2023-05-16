@@ -37,7 +37,7 @@ theme:
   # setting features for the navigation tab
   features:
     - navigation.instant
-      #- navigation.expand
+    # - navigation.expand
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
@@ -46,7 +46,11 @@ theme:
     - navigation.top
     - toc.integrate
     - toc.follow
+    - content.tabs.link
+    - content.code.annotation
     - content.code.copy
+    - search.suggest
+    - search.highlight
   # Default values, taken from mkdocs_theme.yml
   language: en
   palette: 
