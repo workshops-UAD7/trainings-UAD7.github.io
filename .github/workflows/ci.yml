@@ -16,9 +16,9 @@ jobs:
         with:
           python-version: 3.9
       - uses: actions/cache@v2
-        with:
-        key: ${{ github.ref }}
-        path: .cache
+      #  with:
+      #  key: ${{ github.ref }}
+      #  path: .cache
       #- name: run requirements file
       #  run:  pip install -r requirements_mkdocs.txt 
       #- name: Deploy docs
