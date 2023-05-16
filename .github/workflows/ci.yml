@@ -21,9 +21,8 @@ jobs:
         path: .cache
       #- name: run requirements file
       #  run:  pip install -r requirements_mkdocs.txt 
-      - name: Deploy docs
-        run pip install mkdocs-material
-        run: mkdocs gh-deploy --force
+      #- name: Deploy docs
+      #  run pip install mkdocs-material
+      #  run: mkdocs gh-deploy --force
       #  env:
       #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
