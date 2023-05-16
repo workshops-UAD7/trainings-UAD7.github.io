@@ -9,8 +9,8 @@ As users we can interact with the Unix shell using a [terminal](https://en.wikip
 
 ## Sections
 
-* [Introduction to Github Codespaces]
-* [Introduction to the UNIX Shell and Unix filesystem]
+* [Introduction to Github Codespaces](./CLI/Codespaces.md)
+* [Introduction to the UNIX Shell and Unix filesystem](./CLI/UnixShell.md)
 * [Working with Files and Directories]
 * [Pipes and Filters]
 * [Loops]
@@ -28,11 +28,13 @@ As users we can interact with the Unix shell using a [terminal](https://en.wikip
 
 ***
 
-Created: 05/11/2023;  Last update: 05/15/2023
+Created: 05/11/2023;  Last update: 05/15/2023<br>
+Carlos Lizárraga<br>
+Data Science Institute<br>
+University of Arizona
 
-Carlos Lizárraga
 
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="128"> \  [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="128">  [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 [<img src="https://datascience.arizona.edu/sites/default/files/Data%20Science%20Institute_Webheader%20%281%29.svg" width="256">](https://datascience.arizona.edu)
