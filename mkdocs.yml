@@ -1,18 +1,51 @@
 site_name: UA Data Science Institute Trainings
+site_description: 'Data Science trainings'
+site_author: 'Carlos Lizárraga-Celaya'
+#site_url: https://trainings-UAD7.github.io/
+
+# Repository
+repo_name: trainings-UAD7
+repo_url: https://github.com/workshops-UAD7/trainings-UAD7.github.io
+edit_uri: edit/main/docs/
+# Copyright
+copyright: 'Copyright &copy; 2023 University of Arizona Data Science Institute'
+
 theme:
   name: material
+# Page tree
+nav: 
+  - Home: index.md
+  - CLI: 
+    - Command Line Interface: CommandLineInterface.md
+    - Github Codespaces: Codespaces.md
+    - Unix Shell: UnixShell.md
+    - Files and Directories: Files_Dirs.md
 
-  nav: 
-     - 'index.md'
-     - 'Unix Shell': 'CommandLineInterface.md'
+ # Configuration
+imgwidth: 70px;
+theme:
+  highlightjs: true
+  name: material
+  font:
+    text: 'Open Sans'
+    code: 'Roboto Mono'
+  #logo: 'assets/uarizona.png'
+  #favicon: 'assets/favicon.ico' 
+  
+  
   # setting features for the navigation tab
   features:
     - navigation.instant
       #- navigation.expand
     - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+    - navigation.top
+    - toc.integrate
     - toc.follow
+    - content.code.copy
   # Default values, taken from mkdocs_theme.yml
   language: en
   palette: 

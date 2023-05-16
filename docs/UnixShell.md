@@ -1,4 +1,4 @@
-## Unix Shell and Unix Filesystem
+# Unix Shell and Unix Filesystem
 
 ### Unix and Unix-like operating systems
 
@@ -113,7 +113,7 @@ Common commands
 
 #### See more [Unix Shell Commands here](https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell#unix-shell)
 
-## Main References
+### Main References
 
 * [The Command Line Interface Shell](https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell)
 * [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)

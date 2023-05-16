@@ -9,8 +9,8 @@ As users we can interact with the Unix shell using a [terminal](https://en.wikip
 
 ## Sections
 
-* [Introduction to Github Codespaces](./CLI/Codespaces.md)
-* [Introduction to the UNIX Shell and Unix filesystem](./CLI/UnixShell.md)
+* [Introduction to Github Codespaces](Codespaces.md)
+* [Introduction to the UNIX Shell and Unix filesystem](UnixShell.md)
 * [Working with Files and Directories]
 * [Pipes and Filters]
 * [Loops]
