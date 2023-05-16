@@ -1,4 +1,4 @@
-# 1. Github Codespaces
+# Github Codespaces
 
 <p><img src="https://github.gallerycdn.vsassets.io/extensions/github/codespaces/1.14.7/1683048444102/Microsoft.VisualStudio.Services.Icons.Default" width=300></p>
 
@@ -50,4 +50,11 @@ One of the advantages of VSCode is that many extensions are available for facili
 * [Github Codespaces Documentation](https://docs.github.com/en/codespaces)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Visual Studio Code Extensions](https://marketplace.visualstudio.com/VSCode)
+* [VSCode Documentation](https://code.visualstudio.com/docs)
   
+
+***
+
+Created: 05/13/2023: Updated: 05/15/2023,<br>
+Carlos Lizárraga
+

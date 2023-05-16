@@ -19,7 +19,8 @@ nav:
     - Command Line Interface: CommandLineInterface.md
     - Github Codespaces: Codespaces.md
     - Unix Shell: UnixShell.md
-    - Files and Directories: Files_Dirs.md
+    - Files & Directories: Files_Dirs.md
+    - Pipes & Filters: Pipes_Filters.md
 
  # Configuration
 imgwidth: 70px;

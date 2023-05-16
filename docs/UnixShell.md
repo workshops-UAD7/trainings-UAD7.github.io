@@ -113,9 +113,16 @@ Common commands
 
 #### See more [Unix Shell Commands here](https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell#unix-shell)
 
-### Main References
+### References
 
 * [The Command Line Interface Shell](https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell)
 * [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
 * [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
 * [explainshell.com](https://explainshell.com/)
+
+  
+***
+
+Created: 05/13/2023: Updated: 05/15/2023,<br>
+Carlos Lizárraga
+

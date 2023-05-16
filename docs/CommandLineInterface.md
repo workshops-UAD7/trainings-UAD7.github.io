@@ -11,10 +11,11 @@ As users we can interact with the Unix shell using a [terminal](https://en.wikip
 
 * [Introduction to Github Codespaces](Codespaces.md)
 * [Introduction to the UNIX Shell and Unix filesystem](UnixShell.md)
-* [Working with Files and Directories]
-* [Pipes and Filters]
+* [Working with Files and Directories](Files_Dirs.md)
+* [Pipes and Filters](Pipes_Filters.md)
 * [Loops]
 * [Shell Scripts]
+* 
 
 
 
