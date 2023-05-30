@@ -1,32 +1,32 @@
 # Unix Shell and Unix Filesystem
 
-### Unix and Unix-like operating systems
+## Unix and Unix-like operating systems
 
 For clarity, [Unix](https://en.wikipedia.org/wiki/Unix) is a family of [multitasking](https://en.wikipedia.org/wiki/Computer_multitasking), [multi-user](https://en.wikipedia.org/wiki/Multi-user_software) computer operating system. There is a [large family of Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating systems.
 
 Some well-known cases of Unix-like operating systems are [Linux](https://en.wikipedia.org/wiki/Linux) and [BSD](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution).
 
-### Sessions in UNIX/Linux
+## Sessions in UNIX/Linux
 
 To work in a terminal, we need to have a valid _username_, in order to begin a session via the `login` command.
 
 If using _VSCode_ we can launch a new terminal from the "Hamburguer Menu" as shown in the next figure
 
-![](./images/VSCodeNewTerminal.png)
+![New Terminal](./images/VSCodeNewTerminal.png){width="500"}
 
 The new terminal will open in the lower right part of the _VSCode interface_.
 
-![](./images/VSCodeTerminal.png)
+![Terminal](./images/VSCodeTerminal.png){width="840"}
 
 The terminal is ready for user input.
 
 :memo: To end the session enter the `exit` command. It will finish the session and close the terminal.
 
-### The Command Shell or Command Line Interpreter
+## The Command Shell or Command Line Interpreter
 
 In the background a _Command shell_ is running. To find out which shell is active we can type the following command after the _system prompt_ `$`.
 
-```
+``` shell
 echo $SHELL
 ```
 
@@ -34,9 +34,9 @@ which will return the command shell program, [`/bin/bash`](https://en.wikipedia.
 
 The command shell serves as an intermediary between the user and the [Operating System Kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), which controls all the available computer resources.
 
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/380px-Kernel_Layout.svg.png"></p>
+![Kernel Layout](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/380px-Kernel_Layout.svg.png)
 
-#### [Read more on the Unix Shell](https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell)
+### [Read more on the Unix Shell](https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell)
 
 ### Files and Directories
 
@@ -57,7 +57,7 @@ The [Unix filesystem](https://en.wikipedia.org/wiki/Unix_filesystem) is consider
 
 The Unix file system is a _hierarchical structure_, with each directory containing a set of files and subdirectories. The _root_ directory is the top-level directory, and all other directories are below it.
 
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Standard-unix-filesystem-hierarchy.svg/800px-Standard-unix-filesystem-hierarchy.svg.png?20160622221758"></p>
+![Unix Filesystem Hierarchy](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Standard-unix-filesystem-hierarchy.svg/800px-Standard-unix-filesystem-hierarchy.svg.png?20160622221758)
 
 ([See a larger image](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Standard-unix-filesystem-hierarchy.svg/2560px-Standard-unix-filesystem-hierarchy.svg.png))
 
@@ -120,9 +120,8 @@ Common commands
 * [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
 * [explainshell.com](https://explainshell.com/)
 
-  
 ***
 
-Created: 05/13/2023: Updated: 05/15/2023,<br>
-Carlos Lizárraga
+Created: 05/13/2023: Updated: 05/15/2023
 
+Carlos Lizárraga

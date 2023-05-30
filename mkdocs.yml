@@ -10,20 +10,23 @@ edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2023 University of Arizona Data Science Institute'
 
-theme:
-  name: material
 # Page tree
 nav: 
   - Home: index.md
-  - CLI: 
-    - Command Line Interface: CommandLineInterface.md
-    - Github Codespaces: Codespaces.md
-    - Unix Shell: UnixShell.md
-    - Files & Directories: Files_Dirs.md
-    - Pipes & Filters: Pipes_Filters.md
-
+  - Command Line Interface: 
+    - Command Line Interface: CLI/CommandLineInterface.md
+    - Github Codespaces: CLI/Codespaces.md
+    - Unix Shell: CLI/UnixShell.md
+    - Files & Directories: CLI/Files_Dirs.md
+    - Pipes & Filters: CLI/Pipes_Filters.md
+    - Loops & Shell Scripts: CLI/Loops_Scripts.md
+  - LLM & Prompt Engineering:
+    - Prompt Engineneering Basics: LLM/PromptEngBasics.md
+    - ChatGPT in Learning Environments: LLM/HE_TeachingEnvironments.md
+    - ChatGPT in Higher Education: LLM/ChatGPT_HE.md
  # Configuration
 imgwidth: 70px;
+
 theme:
   highlightjs: true
   name: material
@@ -37,7 +40,8 @@ theme:
   # setting features for the navigation tab
   features:
     - navigation.instant
-    # - navigation.expand
+    - navigation.path
+    - navigation.expand
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
@@ -55,20 +59,22 @@ theme:
   language: en
   palette: 
     - scheme: default
-      primary: teal
-      accent: blue
+      primary: blue grey
+      accent: light blue
       toggle:
         icon: material/brightness-3
         name: Switch to dark mode
     - scheme: slate
       primary: black
-      accent: orange 
+      accent: deep orange 
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
 
 extra:
   social:
+    - icon: fontawesome/brands/space-awesome
+      link: https://www.datascience.arizona.edu/person/carlos-lizarraga
     - icon: fontawesome/brands/orcid
       link: https://orcid.org/0000-0002-0893-4268
     - icon: fontawesome/brands/github
@@ -77,8 +83,6 @@ extra:
       link: https://www.linkedin.com/in/carloslizarragac/
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/carlos.lizarragac/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/clizarraga
     - icon: fontawesome/brands/mastodon
       link: https://mastodon.online/@clizarraga
     - icon: fontawesome/brands/docker
@@ -104,8 +108,8 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  #    emoji_index: !!python/name:materialx.emoji.twemoji
+  #    emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -121,7 +125,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+      #    format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -135,5 +139,5 @@ plugins:
 #          include_source: True
 #         ignore_h1_titles: True     
 # Copyright
-copyright: 'Copyright &copy; 2023 Carlos Lizárraga-Celaya'
+# copyright: 'Copyright &copy; 2023 Carlos Lizárraga-Celaya'
 

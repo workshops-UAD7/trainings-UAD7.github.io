@@ -10,7 +10,7 @@ A [directory](https://en.wikipedia.org/wiki/Directory_(computing)) is a named co
 
 ## Similarities and differences between files and Directories
 
-**Similarities**
+### Similarities
 
 * Both files and directories are stored on the same physical disk.
 * Both files and directories have names.
@@ -18,13 +18,14 @@ A [directory](https://en.wikipedia.org/wiki/Directory_(computing)) is a named co
 * Both files and directories can have permissions set on them.
 * Both files and directories can be accessed using the same commands.
 
-**Differences**
+### Differences
 
 * A file is a collection of data, while a directory is a collection of files.
 * A file cannot contain other files, while a directory can contain other files and directories.
 * A file can be accessed directly by its name, while a directory can only be accessed by navigating to it through the file system hierarchy.
 
 ## List of commands for working with Files and Directories
+
 The following table shows some of the main Unix commands for working with files and directories:
 
 | Command | Description |
@@ -48,9 +49,9 @@ The following table shows some of the main Unix commands for working with files 
 | [`find`](https://man7.org/linux/man-pages/man1/find.1.html) | Find files that match a certain criteria |
 | [`chmod`](https://man7.org/linux/man-pages/man1/chmod.1.html) | Change the permissions on a file |
 | [`chown`](https://man7.org/linux/man-pages/man1/chown.1.html) | Change the ownership of a file |
-| [`ln`](https://man7.org/linux/man-pages/man1/ln.1.html) | Create a link to a file | 
+| [`ln`](https://man7.org/linux/man-pages/man1/ln.1.html) | Create a link to a file |
 | [`tar`](https://man7.org/linux/man-pages/man1/tar.1.html) | Create a compressed archive of a file or directory |
-| [`gzip`](https://ss64.com/bash/gzip.html) | Compress or decompress a file | 
+| [`gzip`](https://ss64.com/bash/gzip.html) | Compress or decompress a file |
 | [`bzip2`](https://ss64.com/bash/bzip2.html) | Compress or decompress a file |
 
 ### References
@@ -58,11 +59,9 @@ The following table shows some of the main Unix commands for working with files 
 * [The Command Line Interface Shell](https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell)
 * [Working with Files and Directories](https://swcarpentry.github.io/shell-novice/03-create.html)
 * [explainshell.com](https://explainshell.com/)
-
   
-     
 ***
 
-Created: 05/13/2023: Updated: 05/15/2023,<br>
-Carlos Lizárraga
+Created: 05/13/2023: Updated: 05/15/2023
 
+Carlos Lizárraga

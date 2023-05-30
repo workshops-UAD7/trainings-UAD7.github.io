@@ -63,7 +63,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="blue">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
   
     
     
@@ -120,7 +120,7 @@
       <form class="md-header__option" data-md-component="palette">
         
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.04 7 9.54 0 4.5-2.94 8.27-7 9.54.95.3 1.95.46 3 .46a10 10 0 0 0 10-10A10 10 0 0 0 9 2Z"/></svg>
@@ -128,7 +128,7 @@
           
         
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
           
             <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
@@ -219,7 +219,7 @@
   
     <li class="md-tabs__item">
       <a href="../CommandLineInterface/" class="md-tabs__link md-tabs__link--active">
-        CLI
+        Command Line Interface Tutorial
       </a>
     </li>
   
@@ -321,17 +321,19 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-          CLI
+          Command Line Interface Tutorial
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          CLI
+          Command Line Interface Tutorial
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -431,19 +433,14 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#files-and-directories" class="md-nav__link">
     Files and Directories
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#first-steps-manual-pages-and-getting-help" class="md-nav__link">
     First steps: Manual pages and getting help
   </a>
@@ -483,11 +480,16 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
     References
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -528,6 +530,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Loops_Scripts/" class="md-nav__link">
+        Loops & Shell Scripts
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -553,26 +569,25 @@
 
 
 <h1 id="unix-shell-and-unix-filesystem">Unix Shell and Unix Filesystem<a class="headerlink" href="#unix-shell-and-unix-filesystem" title="Permanent link">&para;</a></h1>
-<h3 id="unix-and-unix-like-operating-systems">Unix and Unix-like operating systems<a class="headerlink" href="#unix-and-unix-like-operating-systems" title="Permanent link">&para;</a></h3>
+<h2 id="unix-and-unix-like-operating-systems">Unix and Unix-like operating systems<a class="headerlink" href="#unix-and-unix-like-operating-systems" title="Permanent link">&para;</a></h2>
 <p>For clarity, <a href="https://en.wikipedia.org/wiki/Unix">Unix</a> is a family of <a href="https://en.wikipedia.org/wiki/Computer_multitasking">multitasking</a>, <a href="https://en.wikipedia.org/wiki/Multi-user_software">multi-user</a> computer operating system. There is a <a href="https://en.wikipedia.org/wiki/Unix-like">large family of Unix-like</a> operating systems.</p>
 <p>Some well-known cases of Unix-like operating systems are <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> and <a href="https://en.wikipedia.org/wiki/Berkeley_Software_Distribution">BSD</a>.</p>
-<h3 id="sessions-in-unixlinux">Sessions in UNIX/Linux<a class="headerlink" href="#sessions-in-unixlinux" title="Permanent link">&para;</a></h3>
+<h2 id="sessions-in-unixlinux">Sessions in UNIX/Linux<a class="headerlink" href="#sessions-in-unixlinux" title="Permanent link">&para;</a></h2>
 <p>To work in a terminal, we need to have a valid <em>username</em>, in order to begin a session via the <code>login</code> command.</p>
 <p>If using <em>VSCode</em> we can launch a new terminal from the "Hamburguer Menu" as shown in the next figure</p>
-<p><img alt="" src="../images/VSCodeNewTerminal.png" /></p>
+<p><img alt="New Terminal" src="../images/VSCodeNewTerminal.png" /></p>
 <p>The new terminal will open in the lower right part of the <em>VSCode interface</em>.</p>
-<p><img alt="" src="../images/VSCodeTerminal.png" /></p>
+<p><img alt="Terminal" src="../images/VSCodeTerminal.png" /></p>
 <p>The terminal is ready for user input.</p>
 <p><img alt="📝" class="twemoji" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f4dd.svg" title=":memo:" /> To end the session enter the <code>exit</code> command. It will finish the session and close the terminal.</p>
-<h3 id="the-command-shell-or-command-line-interpreter">The Command Shell or Command Line Interpreter<a class="headerlink" href="#the-command-shell-or-command-line-interpreter" title="Permanent link">&para;</a></h3>
+<h2 id="the-command-shell-or-command-line-interpreter">The Command Shell or Command Line Interpreter<a class="headerlink" href="#the-command-shell-or-command-line-interpreter" title="Permanent link">&para;</a></h2>
 <p>In the background a <em>Command shell</em> is running. To find out which shell is active we can type the following command after the <em>system prompt</em> <code>$</code>.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>echo $SHELL
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">echo</span><span class="w"> </span><span class="nv">$SHELL</span>
 </code></pre></div>
 <p>which will return the command shell program, <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><code>/bin/bash</code></a>, in the <em>Codespaces</em> terminal. This is <em>Bash</em> (Bourne Again Shell), which is derived from the original shell <a href="https://en.wikipedia.org/wiki/Bourne_shell"><code>/bin/sh</code></a>. In other system environments, maybe you will encounter <a href="https://en.wikipedia.org/wiki/Comparison_of_command_shells">other similar shells</a> (<a href="https://en.wikipedia.org/wiki/C_shell"><code>/bin/csh</code></a>, <a href="https://en.wikipedia.org/wiki/Tcsh"><code>/bin/tcsh</code></a>, <a href="https://en.wikipedia.org/wiki/KornShell"><code>/bin/ksh</code></a>, <a href="https://en.wikipedia.org/wiki/Z_shell"><code>/bin/zsh</code></a>, and others).</p>
 <p>The command shell serves as an intermediary between the user and the <a href="https://en.wikipedia.org/wiki/Kernel_(operating_system)">Operating System Kernel</a>, which controls all the available computer resources.</p>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/380px-Kernel_Layout.svg.png"></p>
-
-<h4 id="read-more-on-the-unix-shell"><a href="https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell">Read more on the Unix Shell</a><a class="headerlink" href="#read-more-on-the-unix-shell" title="Permanent link">&para;</a></h4>
+<p><img alt="Kernel Layout" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/380px-Kernel_Layout.svg.png" /></p>
+<h3 id="read-more-on-the-unix-shell"><a href="https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell">Read more on the Unix Shell</a><a class="headerlink" href="#read-more-on-the-unix-shell" title="Permanent link">&para;</a></h3>
 <h3 id="files-and-directories">Files and Directories<a class="headerlink" href="#files-and-directories" title="Permanent link">&para;</a></h3>
 <p>The <a href="https://en.wikipedia.org/wiki/Unix_filesystem">Unix filesystem</a> is considered as the central component of the operating system. The filesystem provides storage and retrieval for other programs to read them. The filesystem also provides access to other resources, for example the <a href="https://en.wikipedia.org/wiki/Device_file">device files</a>, <a href="https://en.wikipedia.org/wiki/Computer_terminal">terminals</a>, <a href="https://en.wikipedia.org/wiki/Printer_(computing)">printers</a>, <a href="https://en.wikipedia.org/wiki/Computer_mouse">computer mice</a>, and many other.</p>
 <table>
@@ -626,8 +641,7 @@
 </tbody>
 </table>
 <p>The Unix file system is a <em>hierarchical structure</em>, with each directory containing a set of files and subdirectories. The <em>root</em> directory is the top-level directory, and all other directories are below it.</p>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Standard-unix-filesystem-hierarchy.svg/800px-Standard-unix-filesystem-hierarchy.svg.png?20160622221758"></p>
-
+<p><img alt="Unix Filesystem Hierarchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Standard-unix-filesystem-hierarchy.svg/800px-Standard-unix-filesystem-hierarchy.svg.png?20160622221758" /></p>
 <p>(<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Standard-unix-filesystem-hierarchy.svg/2560px-Standard-unix-filesystem-hierarchy.svg.png">See a larger image</a>)</p>
 <h3 id="first-steps-manual-pages-and-getting-help">First steps: Manual pages and getting help<a class="headerlink" href="#first-steps-manual-pages-and-getting-help" title="Permanent link">&para;</a></h3>
 <p>In general, almost all Unix systems include their manual pages of system commands.</p>
@@ -741,8 +755,8 @@
 <li><a href="https://explainshell.com/">explainshell.com</a></li>
 </ul>
 <hr />
-<p>Created: 05/13/2023: Updated: 05/15/2023,<br>
-Carlos Lizárraga</p>
+<p>Created: 05/13/2023: Updated: 05/15/2023</p>
+<p>Carlos Lizárraga</p>
 
 
 
@@ -791,6 +805,17 @@ Carlos Lizárraga</p>
       
       
     
+    <a href="https://www.datascience.arizona.edu/person/carlos-lizarraga" target="_blank" rel="noopener" title="www.datascience.arizona.edu" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M96 256h32v256H0V352h32v-32h32v-32h32v-32zm416 96v160H384V256h32v32h32v32h32v32h32zM320 64h32v384h-32v-32H192v32h-32V64h32V32h32V0h64v32h32v32zm-32 64h-64v64h64v-64z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
     <a href="https://orcid.org/0000-0002-0893-4268" target="_blank" rel="noopener" title="orcid.org" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"/></svg>
     </a>
@@ -826,17 +851,6 @@ Carlos Lizárraga</p>
     
     <a href="https://www.facebook.com/carlos.lizarragac/" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/clizarraga" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
     </a>
   
     
