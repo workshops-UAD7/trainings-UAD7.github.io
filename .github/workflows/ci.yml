@@ -22,7 +22,7 @@ jobs:
       - name: run requirements file
         run:  pip install -r requirements.txt 
       - name: Deploy docs
-        run pip install mkdocs-material
+      #  run pip install mkdocs-material
         run: mkdocs gh-deploy --force
       #  env:
       #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
