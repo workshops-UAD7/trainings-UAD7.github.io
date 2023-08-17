@@ -21,7 +21,7 @@ nav:
     - Pipes & Filters: CLI/Pipes_Filters.md
     - Loops & Shell Scripts: CLI/Loops_Scripts.md
   - LLM & Prompt Engineering:
-    - Intro to LLMs: "https://github.com/clizarraga-UAD7/DeepLearning/wiki/Introduction-to-LLMs"
+    - Intro to LLMs: 'https://github.com/clizarraga-UAD7/DeepLearning/wiki/Introduction-to-LLMs'
     - Prompt Engineneering Basics: LLM/PromptEngBasics.md
     - ChatGPT in Learning Environments: LLM/HE_TeachingEnvironments.md
     - ChatGPT in Higher Education: LLM/ChatGPT_HE.md
