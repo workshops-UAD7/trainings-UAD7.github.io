@@ -1,8 +1,8 @@
-# Welcome to the UA Data Science Trainings
+# Welcome to the UA Data Science Training
 
 **(This site: `https://workshops-uad7.github.io/`)**
 
-![University of Arizona](./images/UofA1.jpeg){:width="800px"}
+![University of Arizona](./images/UAWilcat.jpeg){:width="800px"}
 
 (Credit: Photo by author. University of Arizona, Tucson, AZ.)
 
@@ -32,16 +32,19 @@
 ### AI Tools / Prompt Engineering
 
 * [AI Tools Landscape](https://github.com/ua-data7/LearningResources/wiki/AI-Tools-Landscape)
+* [GPT 101](https://ua-data7.github.io/introllms/)
+  
 
-### General Data Science Learning Resources
+### General Open Science and Data Science Learning Resources
 
 * [A Data Science Resources Library](https://github.com/ua-data7/LearningResources/wiki)
+* [FOSS - Foundational Open Science Skills](https://foss.cyverse.org). CyVerse, University of Arizona.
 
 ***
 
-Created: 05/11/2023;  Last update: 05/19/2023
+Created: 05/11/2023;  Last update: 08/16/2023
 
-Carlos Lizárraga-Celaya. University of Arizona, Data Science Institute.
+Carlos Lizárraga-Celaya. [Data Lab](https://github.com/clizarraga-UAD7/DataScienceLab/wiki), Data Science Institute, University of Arizona.
 
 ![CC BY-NC-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png){:width="200px"} \  [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
