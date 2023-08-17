@@ -26,6 +26,7 @@
 
 * [Python for Data Science](https://github.com/clizarraga-UAD7/Workshops/wiki)
 * [Machine Learning Algorithms](https://github.com/clizarraga-UAD7/MLWorkshops/wiki)
+* [Deep Learning](https://github.com/clizarraga-UAD7/DeepLearning/wiki)
 * [Data Science in Bioinformatics](https://github.com/clizarraga-UAD7/Bioinformatics/wiki)
 * [Data Science in Earth Sciences](https://github.com/clizarraga-UAD7/geo-datascience2)
 
