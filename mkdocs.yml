@@ -1,5 +1,5 @@
-site_name: UA Data Science Institute Trainings
-site_description: 'Data Science trainings'
+site_name: 'UA Data Science Institute Training'
+site_description: 'Data Science training'
 site_author: 'Carlos Lizárraga-Celaya'
 #site_url: https://trainings-UAD7.github.io/
 
@@ -8,7 +8,7 @@ repo_name: trainings-UAD7
 repo_url: https://github.com/workshops-UAD7/trainings-UAD7.github.io
 edit_uri: edit/main/docs/
 # Copyright
-copyright: 'Copyright &copy; 2023 University of Arizona Data Science Institute'
+copyright: 'Copyright &copy; 2023 University of Arizona, Data Science Institute'
 
 # Page tree
 nav: 
