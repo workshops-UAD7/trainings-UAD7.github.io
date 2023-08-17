@@ -2,7 +2,7 @@
 
 **(This site: `https://workshops-uad7.github.io/`)**
 
-![University of Arizona](./images/UAWilcat.jpeg){:width="800px"}
+![University of Arizona](./images/UA1.jpeg){:width="800px"}
 
 (Credit: Photo by author. University of Arizona, Tucson, AZ.)
 
