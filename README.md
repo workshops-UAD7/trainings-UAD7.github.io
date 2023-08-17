@@ -2,3 +2,6 @@
 Training materials from UA Data Science Institute
 
 MkDocs site /docs/index.md
+
+Simple update.
+
