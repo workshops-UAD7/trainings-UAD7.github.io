@@ -15,13 +15,19 @@
 * [Command Line Interface - Unix Shell](https://workshops-uad7.github.io/CommandLineInterface/)
 * [The Command Line Interface Shell](https://github.com/clizarraga-UAD7/Workshops/wiki/The-Command-Line-Interface-Shell)
 * [UNIX Shell Command Line Programming](https://github.com/clizarraga-UAD7/Workshops/wiki/UNIX-Shell---Command-Line-Programming)
-* Extra
+
+
 
 ### Git & Github
 
 * [Introduction to Github](https://github.com/clizarraga-UAD7/Workshops/wiki/Introduction-to-Github)
 * [Introduction to Github Wikis](https://github.com/ua-data7/Trainings/wiki/Introduction-to-Github-Wikis)
 * [Github Wikis and Github Pages](https://github.com/clizarraga-UAD7/Workshops/wiki/Github-Wikis-and-Github-Pages)
+
+### Docker Containers
+
+* [Introduction to Docker](https://github.com/clizarraga-UAD7/Workshops/wiki/Introduction-to-Docker)
+
 
 ### Working in Data Science with Python
 
