@@ -37,6 +37,10 @@
 * [Data Science in Bioinformatics](https://github.com/clizarraga-UAD7/Bioinformatics/wiki)
 * [Data Science in Earth 
 Sciences](https://github.com/clizarraga-UAD7/geo-datascience2#readme)
+* [Introduction to Cloud Native & Analysis Ready Data 
+Formats](https://tyson-swetnam.github.io/agic-2022/). AGIC, 2022.
+* [Introduction to Cloud Native 
+Geospatial](https://www.gillanscience.com/cloud-native-geospatial/). AGIC, 2023.
 
 ### AI Tools / Prompt Engineering
 
