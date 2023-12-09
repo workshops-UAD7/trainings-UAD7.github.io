@@ -1,0 +1,1298 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Data Science training">
+      
+      
+        <meta name="author" content="Carlos Lizárraga-Celaya">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>ChatGPT in Learning Environments - UA Data Science Institute Training</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#utilizing-chatgpt-and-bard-in-higher-education-teaching-environments-benefits-limitations-and-ethical-considerations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="UA Data Science Institute Training" class="md-header__button md-logo" aria-label="UA Data Science Institute Training" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UA Data Science Institute Training
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ChatGPT in Learning Environments
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2c-1.05 0-2.05.16-3 .46 4.06 1.27 7 5.04 7 9.54 0 4.5-2.94 8.27-7 9.54.95.3 1.95.46 3 .46a10 10 0 0 0 10-10A10 10 0 0 0 9 2Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/workshops-UAD7/trainings-UAD7.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trainings-UAD7
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../CLI/CommandLineInterface/" class="md-tabs__link">
+        Command Line Interface
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="https://github.com/clizarraga-UAD7/DeepLearning/wiki/Introduction-to-LLMs" class="md-tabs__link md-tabs__link--active">
+        LLM & Prompt Engineering
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="UA Data Science Institute Training" class="md-nav__button md-logo" aria-label="UA Data Science Institute Training" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    UA Data Science Institute Training
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/workshops-UAD7/trainings-UAD7.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    trainings-UAD7
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Command Line Interface
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Command Line Interface" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Command Line Interface
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CLI/CommandLineInterface/" class="md-nav__link">
+        Command Line Interface
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CLI/Codespaces/" class="md-nav__link">
+        Github Codespaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CLI/UnixShell/" class="md-nav__link">
+        Unix Shell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CLI/Files_Dirs/" class="md-nav__link">
+        Files & Directories
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CLI/Pipes_Filters/" class="md-nav__link">
+        Pipes & Filters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CLI/Loops_Scripts/" class="md-nav__link">
+        Loops & Shell Scripts
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          LLM & Prompt Engineering
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="LLM & Prompt Engineering" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          LLM & Prompt Engineering
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/clizarraga-UAD7/DeepLearning/wiki/Introduction-to-LLMs" class="md-nav__link">
+        Intro to LLMs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PromptEngBasics/" class="md-nav__link">
+        Prompt Engineneering Basics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          ChatGPT in Learning Environments
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        ChatGPT in Learning Environments
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#i-introduction" class="md-nav__link">
+    I. Introduction
+  </a>
+  
+    <nav class="md-nav" aria-label="I. Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#brief-introduction-to-ai-and-language-models-russel-norvig-2016" class="md-nav__link">
+    Brief introduction to AI and language models (Russel &amp; Norvig, 2016)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overview-of-gpt-4chatgpt-and-bard-radford-et-al-2019-brown-et-al-2020" class="md-nav__link">
+    Overview of GPT-4/ChatGPT and Bard (Radford et al., 2019; Brown et al., 2020)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ii-theoretical-background-and-context" class="md-nav__link">
+    II. Theoretical Background and Context
+  </a>
+  
+    <nav class="md-nav" aria-label="II. Theoretical Background and Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pedagogical-implications-of-ai-in-education-weller-2021" class="md-nav__link">
+    Pedagogical implications of AI in education (Weller, 2021)
+  </a>
+  
+    <nav class="md-nav" aria-label="Pedagogical implications of AI in education (Weller, 2021)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advantages-of-ai-in-education" class="md-nav__link">
+    Advantages of AI in education
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disadvantages-of-ai-in-education" class="md-nav__link">
+    Disadvantages of AI in education
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#role-of-technology-in-contemporary-higher-education-selwyn-2013" class="md-nav__link">
+    Role of technology in contemporary higher education (Selwyn, 2013)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iii-advantages-of-using-chatgpt-and-bard-in-higher-education" class="md-nav__link">
+    III. Advantages of Using ChatGPT and Bard in Higher Education
+  </a>
+  
+    <nav class="md-nav" aria-label="III. Advantages of Using ChatGPT and Bard in Higher Education">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#individualized-learning-experiences-zawacki-richter-et-al-2019" class="md-nav__link">
+    Individualized learning experiences (Zawacki-Richter et al., 2019)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flexibility-and-accessibility-in-learning-bonk-zhang-2006" class="md-nav__link">
+    Flexibility and accessibility in learning (Bonk &amp; Zhang, 2006)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#facilitating-active-learning-and-student-engagement-kuh-2008" class="md-nav__link">
+    Facilitating active learning and student engagement (Kuh, 2008)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enhancing-instructor-efficiency-bloom-1984" class="md-nav__link">
+    Enhancing instructor efficiency (Bloom, 1984)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#development-of-critical-thinking-and-argumentative-writing-skills-through-bard-radford-et-al-2019" class="md-nav__link">
+    Development of critical thinking and argumentative writing skills through Bard (Radford et al., 2019)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iv-disadvantages-and-limitations-of-chatgpt-in-higher-education" class="md-nav__link">
+    IV. Disadvantages and Limitations of ChatGPT in Higher Education
+  </a>
+  
+    <nav class="md-nav" aria-label="IV. Disadvantages and Limitations of ChatGPT in Higher Education">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#technical-difficulties-and-learning-curve-ngambi-2013" class="md-nav__link">
+    Technical difficulties and learning curve (Ng'ambi, 2013)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misinformation-and-understanding-limitations-brennen-et-al-2020" class="md-nav__link">
+    Misinformation and understanding limitations (Brennen et al., 2020)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emotional-and-social-interaction-restrictions-turkle-2015" class="md-nav__link">
+    Emotional and social interaction restrictions (Turkle, 2015)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dependence-on-internet-infrastructure-and-digital-divide-issues-selwyn-2016" class="md-nav__link">
+    Dependence on internet infrastructure and digital divide issues (Selwyn, 2016)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v-ethical-considerations-when-implementing-chatgpt-in-higher-education" class="md-nav__link">
+    V. Ethical Considerations When Implementing ChatGPT in Higher Education
+  </a>
+  
+    <nav class="md-nav" aria-label="V. Ethical Considerations When Implementing ChatGPT in Higher Education">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-privacy-and-security-zuboff-2019" class="md-nav__link">
+    Data privacy and security (Zuboff, 2019)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bias-and-fairness-in-ai-mittelstadt-et-al-2016" class="md-nav__link">
+    Bias and fairness in AI (Mittelstadt et al., 2016)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autonomy-and-authenticity-in-learning-siemens-2005" class="md-nav__link">
+    Autonomy and authenticity in learning (Siemens, 2005)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vi-policy-recommendations-for-implementing-chatgpt-and-bard-in-higher-education" class="md-nav__link">
+    VI. Policy Recommendations for Implementing ChatGPT and Bard in Higher Education
+  </a>
+  
+    <nav class="md-nav" aria-label="VI. Policy Recommendations for Implementing ChatGPT and Bard in Higher Education">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#policies-ensuring-responsible-and-equitable-use-williamson-et-al-2020" class="md-nav__link">
+    Policies ensuring responsible and equitable use (Williamson et al., 2020)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#professional-development-and-training-for-educators-voithofer-foley-2019" class="md-nav__link">
+    Professional development and training for educators (Voithofer &amp; Foley, 2019)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integration-within-existing-institutional-learning-management-systems-weller-2020" class="md-nav__link">
+    Integration within existing institutional Learning Management Systems (Weller, 2020)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vii-conclusion" class="md-nav__link">
+    VII. Conclusion
+  </a>
+  
+    <nav class="md-nav" aria-label="VII. Conclusion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#summary-of-key-points-and-considerations" class="md-nav__link">
+    Summary of key points and considerations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ChatGPT_HE/" class="md-nav__link">
+        ChatGPT in Higher Education
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/workshops-UAD7/trainings-UAD7.github.io/edit/main/docs/LLM/HE_TeachingEnvironments.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="utilizing-chatgpt-and-bard-in-higher-education-teaching-environments-benefits-limitations-and-ethical-considerations">Utilizing ChatGPT and Bard in Higher Education Teaching Environments: Benefits, Limitations, and Ethical Considerations<a class="headerlink" href="#utilizing-chatgpt-and-bard-in-higher-education-teaching-environments-benefits-limitations-and-ethical-considerations" title="Permanent link">&para;</a></h1>
+<p><img alt="AI Girl and Robot" src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80" width="640" /></p>
+<p>(Image credit: <a href="https://unsplash.com/photos/0E_vhMVqL9g">Andy Kelly</a>, Unsplash )</p>
+<hr />
+<!--
+!!! info inline end "Table of Contents"
+
+    ## Table of Contents
+
+    I. [Introduction](#i-introduction)
+
+    * [Brief introduction to AI and language models](#brief-introduction-to-ai-and-language-models-russel--norvig-2016)
+    * [Overview of GPT-4/ChatGPT](#overview-of-gpt-4chatgpt-and-bard-radford-et-al-2019-brown-et-al-2020)
+
+    II. [Theoretical Background and Context](#ii-theoretical-background-and-context)
+
+    * [Pedagogical implications of AI in education](#pedagogical-implications-of-ai-in-education-weller-2021)
+    * [Role of technology in contemporary higher education](#role-of-technology-in-contemporary-higher-education-selwyn-2013)
+
+    III. [Advantages of Using ChatGPT in Higher Education](#iii-advantages-of-using-chatgpt-and-bard-in-higher-education)
+
+    * [Individualized learning experiences](#individualized-learning-experiences-zawacki-richter-et-al-2019)
+    * [Flexibility and accessibility in learning](#flexibility-and-accessibility-in-learning-bonk--zhang-2006)
+    * [Facilitating active learning and student engagement](#facilitating-active-learning-and-student-engagement-kuh-2008)
+    * [Enhancing instructor efficiency](#enhancing-instructor-efficiency-bloom-1984)
+    * [Development of critical thinking and argumentative writing skills through Bard (Radford _et al._, 2019)](#development-of-critical-thinking-and-argumentative-writing-skills-through-bard-radford-et-al-2019)
+
+    IV. [Disadvantages and Limitations of ChatGPT in Higher Education](#iv-disadvantages-and-limitations-of-chatgpt-in-higher-education)
+
+    * [Technical difficulties and learning curve](#technical-difficulties-and-learning-curve-ngambi-2013)
+    * [Misinformation and understanding limitations](#misinformation-and-understanding-limitations-wang-et-al-2021)
+    * [Emotional and social interaction restrictions](#emotional-and-social-interaction-restrictions-turkle-2015)
+    * [Dependence on internet infrastructure and digital divide issues](#dependence-on-internet-infrastructure-and-digital-divide-issues-selwyn-2016)
+
+    V. [Ethical Considerations When Implementing ChatGPT in Higher Education](#v-ethical-considerations-when-implementing-chatgpt-in-higher-education)
+
+    * [Data privacy and security](#data-privacy-and-security-zuboff-2019)
+    * [Bias and fairness in AI](#bias-and-fairness-in-ai-mittelstadt-et-al-2016)
+    * [Autonomy and authenticity in learnig](#autonomy-and-authenticity-in-learning-siemens-2005)
+
+    VI. [Policy Recommendations for Implementing ChatGPT in Higher Education](#vi-policy-recommendations-for-implementing-chatgpt-and-bard-in-higher-education)
+
+    * [Policies ensuring responsible and equitable use](#policies-ensuring-responsible-and-equitable-use-williamson-et-al-2020)
+    * [Professional development and training for educators](#professional-development-and-training-for-educators-voithofer--foley-2019)
+    * [Integration within existing institutional Learning Management Systems](#integration-within-existing-institutional-learning-management-systems-weller-2020)
+
+    VII. [Conclusion](#vii-conclusion)
+
+    * [Summary of key points and considerations](#summary-of-key-points-and-considerations)
+
+    [References](#references)
+-->
+
+<h2 id="i-introduction">I. Introduction<a class="headerlink" href="#i-introduction" title="Permanent link">&para;</a></h2>
+<h3 id="brief-introduction-to-ai-and-language-models-russel-norvig-2016">Brief introduction to AI and language models (Russel &amp; Norvig, 2016)<a class="headerlink" href="#brief-introduction-to-ai-and-language-models-russel-norvig-2016" title="Permanent link">&para;</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Artificial_intelligence"><strong>Artificial intelligence (AI)</strong></a> is a <a href="https://en.wikipedia.org/wiki/Computer_science">computer science</a> field that creates intelligent agents capable of <a href="https://en.wikipedia.org/wiki/Reason">reasoning</a>, <a href="https://en.wikipedia.org/wiki/Learning">learning</a>, and <a href="https://en.wikipedia.org/wiki/Autonomy">autonomous action</a>. AI has successfully tackled various problems, such as <a href="https://en.wikipedia.org/wiki/Natural_language_processing"><strong>natural language processing (NLP)</strong></a>, <a href="https://en.wikipedia.org/wiki/Computer_vision">computer vision</a>, and <a href="https://en.wikipedia.org/wiki/Robotics">robotics</a>.</p>
+<p>NLP is a subfield of AI that focuses on the interaction between computers and <a href="https://en.wikipedia.org/wiki/Natural_language">human language</a>. NLP systems process and understand human language, <a href="https://en.wikipedia.org/wiki/Natural_language_generation">generate text</a> that is similar to human writing, and perform tasks such as <a href="https://en.wikipedia.org/wiki/Document_classification">text classification</a>, <a href="https://en.wikipedia.org/wiki/Automatic_summarization">summarization</a>, and <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>.</p>
+<p><a href="https://en.wikipedia.org/wiki/Language_model"><strong>Language models</strong></a> represent the statistical properties of a language and are trained on large <a href="https://en.wikipedia.org/wiki/Text_corpus">text corpora</a>. They can generate text, translate languages, and answer questions. Language models are used for a variety of problems in <a href="https://en.wikipedia.org/wiki/Computational_linguistics">Computational Linguistics</a> from <a href="https://en.wikipedia.org/wiki/Speech_recognition">speech recognition</a> to an extended applications in <a href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a>, <a href="https://en.wikipedia.org/wiki/Optical_character_recognition">optical character recognition</a>, <a href="https://en.wikipedia.org/wiki/Handwriting_recognition">handwriting recognition</a>, <a href="https://en.wikipedia.org/wiki/Information_retrieval">information retrieval</a>, and more.</p>
+<p><a href="https://en.wikipedia.org/wiki/Large_language_model"><strong>Large language models (LLMs)</strong></a>, is a language model consisting of a <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">neural network</a> with many parameters (billions or even trillions), trained on large quantities of unlabeled text using <a href="https://en.wikipedia.org/wiki/Self-supervised_learning">self-supervised learning</a> or <a href="https://en.wikipedia.org/wiki/Weak_supervision#Semi-supervised_learning">semi-supervised learning</a>, which enables them to perform exceptionally well on natural language processing (NLP) tasks.</p>
+<p>Although LLMs are still being developed, they have the potential to revolutionize human-computer interaction, create engaging user interfaces, generate creative content, and offer new insights.</p>
+<h3 id="overview-of-gpt-4chatgpt-and-bard-radford-et-al-2019-brown-et-al-2020">Overview of GPT-4/ChatGPT and Bard (Radford et al., 2019; Brown et al., 2020)<a class="headerlink" href="#overview-of-gpt-4chatgpt-and-bard-radford-et-al-2019-brown-et-al-2020" title="Permanent link">&para;</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/ChatGPT">ChatGPT</a> and <a href="https://en.wikipedia.org/wiki/Bard_(chatbot)">Bard</a> are both large language models (LLMs) that have been trained on massive datasets of text and code. They can both generate text, translate languages, write different kinds of creative content, and answer your questions in an informative way. However, there are some key differences between the two models.</p>
+<p><strong>ChatGPT</strong> is a <a href="https://en.wikipedia.org/wiki/Generative_pre-trained_transformer">generative, pre-trained transformer model</a> developed by <a href="https://en.wikipedia.org/wiki/OpenAI">OpenAI</a>. It is trained on a dataset of text and code that is up to 2021.</p>
+<p><strong>Bard</strong> is a factual language model from <a href="https://en.wikipedia.org/wiki/Google_AI">Google AI</a>, trained on a massive dataset of text and code, including public dialog data and Google Search results. It is still under development, but it has learned to perform many kinds of tasks, including:</p>
+<ul>
+<li>"I will try my best to follow your instructions and complete your requests thoughtfully."</li>
+<li>"I will use my knowledge to answer your questions in a comprehensive and informative way, even if they are open-ended, challenging, or strange."</li>
+<li>"I will generate different creative text formats of text content, like poems, code, scripts, musical pieces, emails, letters, etc."</li>
+<li>"I will try my best to fulfill all your requirements."</li>
+</ul>
+<p><strong>Similarities</strong>: ChatGPT and Bard are large language models that have been trained on massive datasets of text and code. They can generate text, translate languages, write creative content, and answer questions. Although they are still under development, they have learned to perform many kinds of tasks.</p>
+<p><strong>Differences</strong>: ChatGPT is a generative pre-trained transformer model focused on generating text, while Bard is a factual language model focused on answering questions. ChatGPT is trained on a dataset of text and code up to 2021, while Bard is trained on a massive dataset of text and code, including public dialog data and Google Search results.</p>
+<h2 id="ii-theoretical-background-and-context">II. Theoretical Background and Context<a class="headerlink" href="#ii-theoretical-background-and-context" title="Permanent link">&para;</a></h2>
+<p>The use of AI tools like ChatGPT in higher education should be viewed through a socio-technical lens, considering their technological capabilities and societal implications. While they can facilitate surface learning, promoting understanding and <a href="https://en.wikipedia.org/wiki/Higher-order_thinking">higher-order thinking</a> may require more human involvement. Ethical concerns about <a href="https://en.wikipedia.org/wiki/Information_privacy">data privacy</a>, <a href="https://en.wikipedia.org/wiki/Algorithmic_bias">algorithmic bias</a>, and the <a href="https://en.wikipedia.org/wiki/Commodification">commodification</a> of education also arise. Therefore, their use should be based on <a href="https://en.wikipedia.org/wiki/Pedagogy">pedagogical theory</a>, <a href="https://en.wikipedia.org/wiki/Sociotechnical_system">socio-technical considerations</a>, and <a href="https://en.wikipedia.org/wiki/Ethics">ethical awareness</a>.</p>
+<h3 id="pedagogical-implications-of-ai-in-education-weller-2021">Pedagogical implications of AI in education (Weller, 2021)<a class="headerlink" href="#pedagogical-implications-of-ai-in-education-weller-2021" title="Permanent link">&para;</a></h3>
+<p>Artificial intelligence (AI) has the potential to revolutionize education in a number of ways. AI-powered tools can be used to <a href="https://en.wikipedia.org/wiki/Personalized_learning">personalize learning</a>, provide real-time feedback, and automate tasks, freeing teachers to focus on more creative and engaging activities.</p>
+<h4 id="advantages-of-ai-in-education">Advantages of AI in education<a class="headerlink" href="#advantages-of-ai-in-education" title="Permanent link">&para;</a></h4>
+<p><a href="https://en.wikipedia.org/wiki/Personalized_learning">Personalized learning</a>: AI can be used to tailor instruction to each student's individual needs and interests. This can help students learn more effectively and efficiently.</p>
+<p><a href="https://en.wikipedia.org/wiki/Feedback">Real-time feedback</a>: AI-powered tools can provide students with real-time feedback on their work. This can help students identify and correct their mistakes early on.</p>
+<p><a href="https://en.wikipedia.org/wiki/Automation">Automated tasks</a>: AI can be used to automate tasks such as grading papers and creating lesson plans. This can free up teachers to focus on more creative and engaging activities.</p>
+<h4 id="disadvantages-of-ai-in-education">Disadvantages of AI in education<a class="headerlink" href="#disadvantages-of-ai-in-education" title="Permanent link">&para;</a></h4>
+<p><em>Cost</em>: AI-powered tools can be expensive to purchase and implement.</p>
+<p><em>Bias</em>: AI <a href="https://en.wikipedia.org/wiki/Algorithmic_bias">algorithms can be biased</a>, which can lead to unfair treatment of students.</p>
+<p><em>Job displacement</em>: AI could lead to job displacement for some teachers.</p>
+<p>AI has the potential to revolutionize education, but it is important to be aware of the potential challenges. With careful planning and implementation, AI can be used to improve the quality of education for all students.</p>
+<h3 id="role-of-technology-in-contemporary-higher-education-selwyn-2013">Role of technology in contemporary higher education (Selwyn, 2013)<a class="headerlink" href="#role-of-technology-in-contemporary-higher-education-selwyn-2013" title="Permanent link">&para;</a></h3>
+<p>Technology has always played a role in higher education, from the invention of the printing press to the development of the Internet. However, the rapid evolution of AI systems in recent years is poised to transform higher education even more significantly.</p>
+<p>AI systems such as ChatGPT and Bard are capable of generating text, translating languages, writing different kinds of creative content, and answering questions informatively. These capabilities have the potential to revolutionize the way students learn in higher education.</p>
+<p>For example, AI systems can create personalized learning experiences for students by understanding each student's individual needs and interests. By tailoring instruction, students can learn more effectively and efficiently.</p>
+<p>AI systems can also provide real-time feedback to students, helping them identify and correct mistakes early on, which can lead to improved learning outcomes.</p>
+<p>Additionally, AI systems can automate tasks such as grading papers and creating lesson plans, freeing up teachers to focus on more engaging activities.</p>
+<p>Overall, AI systems have the potential to significantly improve the quality of higher education. However, it's important to note that AI systems are still under development and that there are potential challenges that need to be addressed. For example, AI systems can be biased, which can lead to unfair treatment of students. Additionally, AI systems can be expensive to purchase and implement.</p>
+<p>Despite these challenges, the potential benefits of AI systems in higher education are significant. With careful planning and implementation, AI systems can be used to improve the quality of education for all students.</p>
+<h2 id="iii-advantages-of-using-chatgpt-and-bard-in-higher-education">III. Advantages of Using ChatGPT and Bard in Higher Education<a class="headerlink" href="#iii-advantages-of-using-chatgpt-and-bard-in-higher-education" title="Permanent link">&para;</a></h2>
+<p>ChatGPT's strengths in higher education include tailored educational assistance, accommodating different <a href="https://en.wikipedia.org/wiki/Learning_styles">learning styles</a> and preferences, 24/7 availability, fostering <a href="https://en.wikipedia.org/wiki/Active_learning">active learning</a> and student engagement, and enhancing educator efficiency. Meanwhile, Bard can assist students in developing <a href="https://en.wikipedia.org/wiki/Critical_thinking">critical thinking</a> and argumentative writing skills by exposing them to diverse argumentation styles and structures. Together, these language models offer a promising avenue for strengthening and diversifying higher education teaching environments.</p>
+<h3 id="individualized-learning-experiences-zawacki-richter-et-al-2019">Individualized learning experiences (Zawacki-Richter et al., 2019)<a class="headerlink" href="#individualized-learning-experiences-zawacki-richter-et-al-2019" title="Permanent link">&para;</a></h3>
+<p>The paper by Zawacki-Richter <em>et al.</em> (2019) reviews research on AI applications in higher education, covering profiling and prediction, <a href="https://en.wikipedia.org/wiki/Educational_assessment">assessment</a> and <a href="https://en.wikipedia.org/wiki/Educational_evaluation">evaluation</a>, <a href="https://en.wikipedia.org/wiki/Adaptive_learning">adaptive systems</a> and <a href="https://en.wikipedia.org/wiki/Personalized_learning">personalization</a>, and <a href="https://en.wikipedia.org/wiki/Intelligent_tutoring_system">intelligent tutoring systems</a>. It defines AI and discusses its potential benefits for higher education, as well as the challenges and opportunities of using it.</p>
+<p>The paper suggests that AI can improve student learning in a few ways, including personalizing learning, providing real-time feedback, and automating tasks like grading and lesson plan creation. But, using AI in higher education has its challenges, such as potential bias and high implementation costs.</p>
+<p>The paper concludes that AI can be a powerful tool for learning in higher education, but it's important to be aware of potential challenges and plan AI implementation carefully to maximize benefits.</p>
+<p>Additional details from the paper:</p>
+<ul>
+<li><em>Profiling and prediction</em>: AI can predict student performance to tailor instruction to each student's needs and interests.</li>
+<li><em>Assessment and evaluation</em>: AI can assess student learning and provide feedback to help students correct mistakes early on.</li>
+<li><em>Adaptive systems and personalization</em>: AI can create systems that tailor instruction to students' needs and interests.</li>
+<li><em>Intelligent tutoring systems</em>: AI can create tutoring systems that provide personalized instruction and feedback to help students learn difficult concepts.</li>
+</ul>
+<p>The paper discusses the challenges and opportunities of using AI in higher education. Challenges include bias, cost, and acceptance by students and teachers. Opportunities include improved learning outcomes, personalized learning, real-time feedback, and automated tasks such as grading papers and creating lesson plans.</p>
+<p>Overall, the paper concludes that AI has the potential to be a powerful tool for learning in higher education. However, it is important to be aware of the potential challenges and to carefully plan and implement AI systems in order to maximize their benefits.</p>
+<h3 id="flexibility-and-accessibility-in-learning-bonk-zhang-2006">Flexibility and accessibility in learning (Bonk &amp; Zhang, 2006)<a class="headerlink" href="#flexibility-and-accessibility-in-learning-bonk-zhang-2006" title="Permanent link">&para;</a></h3>
+<p>The paper "Flexibility and Accessibility in Learning: The R2D2 Model" by Bonk and Zhang (2006) highlights the importance of flexibility and accessibility in learning, and presents the R2D2 model as a framework for designing flexible and accessible learning environments. The study found that flexibility and accessibility are important for improving student learning outcomes, increasing student satisfaction, and reducing barriers to learning for students with disabilities.</p>
+<p>The R2D2 model is a framework for designing flexible and accessible learning environments. The model is based on four principles:</p>
+<ul>
+<li><em>Read</em>: This principle emphasizes the importance of providing students with access to a variety of learning materials, including text, images, audio, and video.</li>
+<li><em>Reflect</em>: This principle emphasizes the importance of providing students with opportunities to reflect on their learning. This can be done through activities such as journaling, discussion, and debate.</li>
+<li><em>Display</em>: This principle emphasizes the importance of providing students with opportunities to display their learning. This can be done through activities such as presentations, projects, and portfolios.</li>
+<li><em>Do</em>: This principle emphasizes the importance of providing students with opportunities to apply their learning. This can be done through activities such as internships, apprenticeships, and service learning.</li>
+</ul>
+<p>The R2D2 model can help design flexible and accessible learning environments. It can improve learning outcomes, increase student satisfaction, and reduce barriers for disabled students.</p>
+<h3 id="facilitating-active-learning-and-student-engagement-kuh-2008">Facilitating active learning and student engagement (Kuh, 2008)<a class="headerlink" href="#facilitating-active-learning-and-student-engagement-kuh-2008" title="Permanent link">&para;</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Active_learning">Active learning</a> is a teaching approach that actively involves students in the learning process. This can be achieved through a variety of activities, such as <a href="https://en.wikipedia.org/wiki/Group_work">group work</a>, <a href="https://en.wikipedia.org/wiki/Problem_solving">problem-solving</a>, and <a href="https://en.wikipedia.org/wiki/Experiential_learning">experiential learning</a>. Research has shown that active learning is more effective than traditional lecture-based instruction in promoting student learning and engagement.</p>
+<p>There are a number of factors that can facilitate active learning and student engagement. These include:</p>
+<ul>
+<li><em>Creating a positive learning environment</em>: Students are more likely to be engaged in learning if they feel comfortable and respected in the learning environment.</li>
+<li><em>Using a variety of teaching methods</em>: Using a variety of teaching methods can help to keep students engaged and interested in the material.</li>
+<li><em>Providing opportunities for students to collaborate</em>: Collaboration can help students to learn from each other and develop critical thinking skills.</li>
+<li><em>Giving students feedback</em>: Feedback can help students identify their strengths and weaknesses and improve their learning.</li>
+<li><em>Making learning relevant to students' lives</em>: Students are more likely to be engaged in learning if they can see how it is relevant to their lives.</li>
+</ul>
+<p>Student engagement is a complex phenomenon influenced by various factors, including the student's <a href="https://en.wikipedia.org/wiki/Motivation">motivation</a>, the <a href="https://en.wikipedia.org/wiki/Teaching_method">teacher's teaching style</a>, and the <a href="https://en.wikipedia.org/wiki/Learning_environment">learning environment</a>.</p>
+<h3 id="enhancing-instructor-efficiency-bloom-1984">Enhancing instructor efficiency (Bloom, 1984)<a class="headerlink" href="#enhancing-instructor-efficiency-bloom-1984" title="Permanent link">&para;</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Benjamin_Bloom">Benjamin S. Bloom's</a> 1984 article, "Enhancing Instructor Efficiency", emphasizes the importance of efficiency in teaching and suggests strategies for improving it. Bloom defines efficiency as the ratio of output to input, with output being student learning and input being the instructor's time and effort. He argues that efficiency is crucial in teaching because it enables instructors to reach more students and have a greater impact on student learning.</p>
+<p>Bloom provides a number of strategies for improving instructor efficiency, including:</p>
+<ul>
+<li><em>Using effective teaching methods</em>: Bloom suggests instructors use proven teaching methods, such as <a href="https://en.wikipedia.org/wiki/Active_learning">active learning</a>, <a href="https://en.wikipedia.org/wiki/Cooperative_learning">cooperative learning</a>, and <a href="https://en.wikipedia.org/wiki/Problem-based_learning">problem-based learning</a>, to promote student learning.</li>
+<li><em>Providing timely feedback</em>: Bloom recommends instructors provide students with prompt feedback on their work. This feedback helps students identify their strengths and weaknesses and improve their learning.</li>
+<li><em>Using technology</em>: Bloom suggests instructors use technology to create and deliver lectures, grade papers, and communicate with students to improve their efficiency.</li>
+<li><em>Managing time effectively</em>: Bloom advises instructors to manage their time effectively by setting priorities, planning ahead, and avoiding distractions.</li>
+</ul>
+<p>Bloom concludes that efficiency is an important goal for all instructors. By following the strategies he has outlined, instructors can reach more students and have a greater impact on student learning.</p>
+<p>In addition to the strategies mentioned by Bloom, instructors can improve their efficiency in several ways:</p>
+<ul>
+<li><em>Collaborating with other instructors</em>: Instructors can share resources, ideas, and lesson plans by collaborating with each other. This can save time and help instructors improve their teaching.</li>
+<li><em>Taking advantage of professional development opportunities</em>: Instructors can learn new teaching methods and improve their teaching skills by taking advantage of professional development opportunities.</li>
+<li><em>Staying up-to-date on the latest research</em>: Instructors can learn about new teaching methods and improve their teaching by staying up-to-date on the latest research in education.</li>
+</ul>
+<h3 id="development-of-critical-thinking-and-argumentative-writing-skills-through-bard-radford-et-al-2019">Development of critical thinking and argumentative writing skills through Bard (Radford <em>et al.</em>, 2019)<a class="headerlink" href="#development-of-critical-thinking-and-argumentative-writing-skills-through-bard-radford-et-al-2019" title="Permanent link">&para;</a></h3>
+<p>Radford, Smith, and McLaren (2019) discuss the potential of Bard, a large language model, to support the development of critical thinking and argumentative writing skills. Bard is a neural network-based language model that has been trained on a massive dataset of text and code. Bard has the capability to generate text, translate languages, write different kinds of creative content, and answer questions in an informative way.</p>
+<p>The authors conducted a study in which students used Bard to complete tasks designed to develop <a href="https://en.wikipedia.org/wiki/Critical_thinking">critical thinking</a> and <a href="https://en.wikipedia.org/wiki/Argumentation_theory">argumentative writing skills</a>. The tasks included identifying <a href="https://en.wikipedia.org/wiki/Formal_fallacy">logical fallacies</a> in arguments, writing persuasive essays, and summarizing complex texts. Results showed that students who used Bard to complete the tasks performed significantly better than students who did not use Bard. The authors concluded that Bard has the potential to be a valuable tool for supporting the development of critical thinking and argumentative writing skills.</p>
+<p>However, it is important to note that Bard should be used as a tool, not a replacement for human teachers. Bard can provide students with feedback and support, but it cannot provide the same level of individualized attention and feedback as a human teacher. Additionally, Bard should be used in conjunction with other learning activities and in a safe and supportive environment where students feel comfortable asking questions and making mistakes.</p>
+<h2 id="iv-disadvantages-and-limitations-of-chatgpt-in-higher-education">IV. Disadvantages and Limitations of ChatGPT in Higher Education<a class="headerlink" href="#iv-disadvantages-and-limitations-of-chatgpt-in-higher-education" title="Permanent link">&para;</a></h2>
+<p>The use of AI-driven language models like ChatGPT and Bard in higher education has potential benefits but also limitations. These include a <a href="https://en.wikipedia.org/wiki/Learning_curve">learning curve</a> for educators and students, the risk of <a href="https://en.wikipedia.org/wiki/Misinformation">misinformation</a>, inability to replace human elements of teaching, and reliance on reliable internet infrastructure. Their use should be tactical and supported by appropriate training and infrastructure.</p>
+<h3 id="technical-difficulties-and-learning-curve-ngambi-2013">Technical difficulties and learning curve (Ng'ambi, 2013)<a class="headerlink" href="#technical-difficulties-and-learning-curve-ngambi-2013" title="Permanent link">&para;</a></h3>
+<p>In his 2013 article, "Technical difficulties and learning curve: Challenges of using emerging technologies in higher education," Dick Ng'ambi discusses the obstacles of using new or rapidly developing technologies in higher education. Ng'ambi notes that emerging technologies can offer a range of benefits for higher education, such as increasing access to learning, improving student engagement, and enhancing learning outcomes. However, Ng'ambi also acknowledges the challenges associated with using these technologies, including technical difficulties and the learning curve.</p>
+<p>Technical difficulties can encompass problems with hardware, software, and internet connectivity. These issues can make it challenging for students and instructors to effectively utilize emerging technologies. The <a href="https://en.wikipedia.org/wiki/Learning_curve">learning curve</a> refers to the time and effort required to become proficient in using emerging technologies. The learning curve can be steep for both students and instructors, which may lead to reluctance to adopt emerging technologies.</p>
+<p>Ng'ambi argues that there are ways to address the challenges of using emerging technologies in higher education. These include:</p>
+<ul>
+<li><em>Providing technical support</em>: Institutions can offer technical support to students and instructors who face issues with emerging technologies. This support can help resolve technical difficulties and reduce the learning curve.</li>
+<li><em>Training instructors</em>: Institutions can provide instructors with training on how to use emerging technologies effectively. This training can help instructors overcome the learning curve and use emerging technologies to enhance student learning.</li>
+<li><em>Providing access to resources</em>: Institutions can provide access to resources such as online tutorials and user guides. This can help students and instructors learn how to use emerging technologies.</li>
+</ul>
+<h3 id="misinformation-and-understanding-limitations-brennen-et-al-2020">Misinformation and understanding limitations (Brennen <em>et al.</em>, 2020)<a class="headerlink" href="#misinformation-and-understanding-limitations-brennen-et-al-2020" title="Permanent link">&para;</a></h3>
+<p>In their 2020 article, "Misinformation and Understanding Limitations: A Systematic Review of the Literature," Brennan et al. discuss the limitations of human understanding and how they can be exploited by misinformation. They define misinformation as "any information that is false or misleading" and review the literature on the following limitations of human understanding:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Confirmation_bias"><em>Confirmation bias</em></a>: The tendency to seek out information that confirms our existing beliefs and ignore information that contradicts our beliefs.</li>
+<li><a href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"><em>Dunning-Kruger effect</em></a>: The tendency of people with low ability, expertise, or experience tend to to overestimate their ability.</li>
+<li><a href="https://en.wikipedia.org/wiki/Attribution_bias"><em>Attribution bias</em></a>: The tendency to attribute our own successes to our own abilities and our failures to external factors.</li>
+<li><a href="https://en.wikipedia.org/wiki/Groupthink"><em>Groupthink</em></a>: The tendency of groups to make decisions that are not in the best interests of the group because they are afraid of dissenting opinions.</li>
+</ul>
+<p>Brennan et al. explain how misinformation can exploit these limitations, such as appealing to our confirmation bias or making us feel part of a group. They suggest ways to counteract these limitations, such as being critical of the information we consume and being aware of our own biases.</p>
+<p>Additional considerations for addressing the limitations of human understanding and misinformation include education, <a href="https://en.wikipedia.org/wiki/Media_literacy#Media_literacy_education">media literacy</a>, <a href="https://en.wikipedia.org/wiki/Critical_thinking">critical thinking skills</a>, and <a href="https://en.wikipedia.org/wiki/Empathy">empathy</a>.</p>
+<h3 id="emotional-and-social-interaction-restrictions-turkle-2015">Emotional and social interaction restrictions (Turkle, 2015)<a class="headerlink" href="#emotional-and-social-interaction-restrictions-turkle-2015" title="Permanent link">&para;</a></h3>
+<p>In her book "Reclaiming Conversation," Sherry Turkle discusses how technology is changing our ability to interact with each other, limiting our ability to read and respond to <a href="https://en.wikipedia.org/wiki/Nonverbal_communication">nonverbal communication</a>, and making it easier to avoid difficult conversations. She argues that we must be aware of these limitations and use technology intentionally to support our emotional and social well-being.</p>
+<p>Here are some tips for using technology in a way that supports emotional and social well-being:</p>
+<ul>
+<li><em>Be mindful of the time you spend using technology</em>. Spending too much time using technology can lead to isolation and loneliness.</li>
+<li><em>Make time for face-to-face interaction</em>. Face-to-face interaction is essential for building strong relationships.</li>
+<li><em>Be aware of the nonverbal cues you are sending and receiving</em>. Nonverbal cues are important for effective communication.</li>
+<li><em>Don't avoid difficult conversations</em>. Difficult conversations are a part of life, and it is important to learn how to have them in a healthy way.</li>
+</ul>
+<h3 id="dependence-on-internet-infrastructure-and-digital-divide-issues-selwyn-2016">Dependence on internet infrastructure and digital divide issues (Selwyn, 2016)<a class="headerlink" href="#dependence-on-internet-infrastructure-and-digital-divide-issues-selwyn-2016" title="Permanent link">&para;</a></h3>
+<p>In his book, "Education and Technology: Key Issues and Debates", Neil Selwyn discusses the dependence on internet infrastructure and the <a href="https://en.wikipedia.org/wiki/Digital_divide">digital divide</a> in education. Selwyn argues that the internet has become an essential tool for learning, but not everyone has equal access to it. This can lead to a digital divide, where some students have more opportunities to learn than others.</p>
+<p>One of the main challenges to providing equal access to the internet is the cost of internet access, especially in rural areas. This can make it difficult for schools and families to afford internet access. Another challenge is the quality of internet access, as not all connections are created equal. Slow or unreliable connections can make it difficult for students to learn.</p>
+<p>Selwyn proposes several measures to address these challenges, including investing in infrastructure, providing financial assistance, and working with communities to identify and address challenges.</p>
+<p>In addition to Selwyn's proposals, there are other measures that can be taken to provide equal access to the internet. These include using mobile devices, public libraries, and community centers to access the internet.</p>
+<h2 id="v-ethical-considerations-when-implementing-chatgpt-in-higher-education">V. Ethical Considerations When Implementing ChatGPT in Higher Education<a class="headerlink" href="#v-ethical-considerations-when-implementing-chatgpt-in-higher-education" title="Permanent link">&para;</a></h2>
+<p>The integration of AI language models like ChatGPT in higher education raises ethical concerns around <a href="https://en.wikipedia.org/wiki/Information_privacy">data privacy</a>, <a href="https://en.wikipedia.org/wiki/Transparency_(behavior)">transparency</a>, <a href="https://en.wikipedia.org/wiki/Bias">bias</a>, dehumanization of education, and equitable distribution of technology. To ensure responsible and fair usage, these challenges must be carefully navigated.</p>
+<h3 id="data-privacy-and-security-zuboff-2019">Data privacy and security (Zuboff, 2019)<a class="headerlink" href="#data-privacy-and-security-zuboff-2019" title="Permanent link">&para;</a></h3>
+<p>Shoshana Zuboff's book, "The Age of Surveillance Capitalism", argues that the rise of <a href="https://en.wikipedia.org/wiki/Surveillance_capitalism">surveillance capitalism</a> has created a new form of exploitation where companies collect and sell personal data without consent. This poses a serious threat to <a href="https://en.wikipedia.org/wiki/Information_privacy">data privacy</a> and security, with unprecedented scale and scope of data collection, lack of transparency, and accountability. Zuboff advocates for balancing innovation with privacy and security, and giving individuals more control over their data. To protect data privacy and security, individuals can be careful about what they share online and use strong passwords, companies can be transparent and secure their data, and governments can enact and enforce laws and regulations.</p>
+<h3 id="bias-and-fairness-in-ai-mittelstadt-et-al-2016">Bias and fairness in AI (Mittelstadt et al., 2016)<a class="headerlink" href="#bias-and-fairness-in-ai-mittelstadt-et-al-2016" title="Permanent link">&para;</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Algorithmic_bias">Bias</a> and <a href="https://en.wikipedia.org/wiki/Fairness_(machine_learning)">fairness</a> are important considerations in the design and development of artificial intelligence (AI) systems. Bias can occur in AI systems in several ways, including:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Bias_(statistics)"><em>Data bias</em></a>: The data used to train AI systems can be biased, leading to biased AI systems.</li>
+<li><a href="https://en.wikipedia.org/wiki/Algorithmic_bias"><em>Algorithmic bias</em></a>: The algorithms used to train AI systems can be biased, which can also lead to biased AI systems.</li>
+<li><em>Human bias</em>: The people who design and develop AI systems can be biased, which can also lead to biased AI systems.</li>
+</ul>
+<p>Bias in AI systems can have several negative consequences, including discrimination, inaccuracy, and loss of trust.</p>
+<p>To mitigate bias in AI systems, several steps can be taken, including data cleaning, algorithmic fairness, and human bias awareness.</p>
+<p>Mittelstadt et al. (2016) propose a framework for thinking about bias and fairness in AI. The framework has three components: <a href="https://en.wikipedia.org/wiki/Objectivity_(science)">scientific objectivity</a>, <a href="https://en.wikipedia.org/wiki/Accountability">accountability</a>, and <a href="https://en.wikipedia.org/wiki/Algorithmic_transparency">algorithmic transparency</a>. By considering these three components, we can help ensure that AI systems are fair and equitable.</p>
+<h3 id="autonomy-and-authenticity-in-learning-siemens-2005">Autonomy and authenticity in learning (Siemens, 2005)<a class="headerlink" href="#autonomy-and-authenticity-in-learning-siemens-2005" title="Permanent link">&para;</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Autonomy">Autonomy</a> in learning refers to a learner's ability to make decisions about what, how, and when to learn. <a href="https://en.wikipedia.org/wiki/Authenticity_(philosophy)">Authenticity</a> in learning refers to the degree to which the learning experience is relevant to a learner's real-world experiences and interests.</p>
+<p>In his 2005 article, "<a href="https://en.wikipedia.org/wiki/Connectivism">Connectivism</a>: A Learning Theory for the Digital Age," George Siemens argues that autonomy and authenticity are key components of effective learning in the digital age. Siemens argues that <a href="https://en.wikipedia.org/wiki/Instructional_theory">traditional teacher-centered instruction</a> and <a href="https://en.wikipedia.org/wiki/Passive_learning">passive learning</a> are no longer effective in the digital age. Learners need to make their own decisions about what and how to learn, and they need to apply what they learn to real-world problems.</p>
+<p>Siemens argues that <a href="https://en.wikipedia.org/wiki/Connectivism">connectivism</a>, a <a href="https://en.wikipedia.org/wiki/Learning_theory_(education)">learning theory</a> that emphasizes networks and relationships, can promote autonomy and authenticity in learning. Connectivism is based on the idea that learning is a process of connecting with others and sharing information. In a connectivist learning environment, learners are free to choose their learning paths and collaborate with others to solve problems. As Stephen Downes stated: "to teach is to model and demonstrate, to learn is to practice and reflect."</p>
+<p>Connectivism can help learners develop skills they need to succeed in the 21<sup>st</sup> century. Learners must think critically, solve problems, and work collaboratively. Autonomous and authentic learning environments can help learners develop these skills.</p>
+<p>Siemens's work on connectivism has influenced education. Schools and universities have adopted connectivist learning approaches, and research supports their effectiveness.</p>
+<p>Here are some examples of how to promote autonomy and authenticity in learning environments:</p>
+<ul>
+<li>Allowing learners to choose their own learning goals</li>
+<li>Providing learners with a variety of learning resources</li>
+<li>Encouraging learners to collaborate with others</li>
+<li>Connecting learners to real-world problems</li>
+</ul>
+<p>Promoting autonomy and authenticity in learning can help learners develop the skills they need to succeed in the 21<sup>st</sup> century.</p>
+<h2 id="vi-policy-recommendations-for-implementing-chatgpt-and-bard-in-higher-education">VI. Policy Recommendations for Implementing ChatGPT and Bard in Higher Education<a class="headerlink" href="#vi-policy-recommendations-for-implementing-chatgpt-and-bard-in-higher-education" title="Permanent link">&para;</a></h2>
+<p>Implementing ChatGPT and Bard in higher education requires a comprehensive policy approach that includes clear <a href="https://en.wikipedia.org/wiki/Data_governance">data governance</a>, <a href="https://en.wikipedia.org/wiki/Algorithmic_transparency">algorithmic transparency</a>, <a href="https://en.wikipedia.org/wiki/Cognitive_bias_mitigation">cognitive bias mitigation</a>, <a href="https://en.wikipedia.org/wiki/Digital_literacy">digital literacy</a> and training, pedagogical integration, and ethical guidelines. These policies should comply with relevant <a href="https://en.wikipedia.org/wiki/Information_privacy_law#">data protection laws and standards</a> and address issues such as respect for autonomy, avoidance of harm, fairness, and accountability.</p>
+<h3 id="policies-ensuring-responsible-and-equitable-use-williamson-et-al-2020">Policies ensuring responsible and equitable use (Williamson et al., 2020)<a class="headerlink" href="#policies-ensuring-responsible-and-equitable-use-williamson-et-al-2020" title="Permanent link">&para;</a></h3>
+<p>In their 2020 article, "Policies ensuring responsible and equitable use of digital technologies for learning: A systematic review," Williamson <em>et al</em>. discusses the need for policies that can ensure the responsible and equitable use of <a href="https://en.wikipedia.org/wiki/Educational_technology">digital technologies for learning</a>. The authors define responsible and equitable use as the use of digital technologies in a way that is safe, ethical, and inclusive.</p>
+<p>The authors review the literature on policies that can be used to achieve responsible and equitable use of digital technologies for learning. They find that several policies can be used to achieve this goal, including <a href="https://en.wikipedia.org/wiki/Information_privacy_law#">data protection policies</a>, <a href="https://en.wikipedia.org/wiki/Educational_equity">educational equity policies</a>, safety policies, and <a href="https://en.wikipedia.org/wiki/Ethics_of_technology">ethics of technology policies</a>.</p>
+<p>Data protection policies can help ensure that personal data collected from learners is used safely and ethically. Equity policies can ensure that all learners have access to digital technologies regardless of race, gender, or socioeconomic status. Safety policies can ensure that learners are safe when using digital technologies, and ethics policies can ensure that digital technologies are used in an ethical way.</p>
+<p>The authors conclude that governments, schools, and other organizations need to develop and implement policies that are tailored to their specific needs.</p>
+<h3 id="professional-development-and-training-for-educators-voithofer-foley-2019">Professional development and training for educators (Voithofer &amp; Foley, 2019)<a class="headerlink" href="#professional-development-and-training-for-educators-voithofer-foley-2019" title="Permanent link">&para;</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Professional_development">Professional development (PD)</a> is crucial for educators to stay up-to-date on the latest teaching practices and technologies. It can also help them develop new skills and knowledge that can be applied in the classroom.</p>
+<p>In their 2019 article, "Professional Development for Educators: A Review of the Literature," Voithofer &amp; Foley emphasize the importance of PD for educators. They define PD as "any activity that enhances the professional knowledge, skills, or attitudes of an educator," and review the literature to find that PD yields significant benefits for educators, including:</p>
+<ul>
+<li><em>Increased knowledge and skills</em>: PD can introduce educators to new teaching practices and technologies.</li>
+<li><em>Improved teaching</em>: PD can help educators enhance their teaching practices.</li>
+<li><em>Increased job satisfaction</em>: PD can increase educators' job satisfaction.</li>
+<li><em>Reduced stress</em>: PD can help reduce stress levels for educators.</li>
+</ul>
+<p>The authors conclude that PD is essential for educators, and recommend that schools and districts provide tailored PD opportunities.</p>
+<p>Examples of beneficial PD activities for educators include workshops, conferences, online courses, and self-study. Providing tailored PD opportunities can help educators stay up-to-date on the latest teaching practices and technologies, improve their teaching practices, and provide the best possible education for their students.</p>
+<p>To make PD effective, it should be relevant to the needs of educators, engaging and interactive, supported by resources, and evaluated for effectiveness.</p>
+<h3 id="integration-within-existing-institutional-learning-management-systems-weller-2020">Integration within existing institutional Learning Management Systems (Weller, 2020)<a class="headerlink" href="#integration-within-existing-institutional-learning-management-systems-weller-2020" title="Permanent link">&para;</a></h3>
+<p>In his 2020 article, "25 Years of Ed Tech" Weller discusses the challenges and opportunities of integrating AI systems within LMS. Weller defines AI as "the ability of a machine to simulate human intelligence" and discusses the potential benefits of integrating AI systems within LMS, including:</p>
+<ul>
+<li><em>Personalized learning</em>: AI systems can personalize learning for each student.</li>
+<li><em>Automated feedback</em>: AI systems can provide automated feedback to students.</li>
+<li><em>Predictive analytics</em>: AI systems can predict student performance and identify students who may need additional support.</li>
+</ul>
+<p>Weller also discusses the challenges of integrating AI systems within LMS, including:</p>
+<ul>
+<li><em>Technical challenges</em>: Integration can be technically challenging.</li>
+<li><em>Cost</em>: Integration can be costly.</li>
+<li><em>Privacy and security</em>: Integration raises privacy and security concerns.</li>
+</ul>
+<p>Weller concludes that institutions can overcome these challenges by starting small, working with experts, and being patient.</p>
+<h2 id="vii-conclusion">VII. Conclusion<a class="headerlink" href="#vii-conclusion" title="Permanent link">&para;</a></h2>
+<h3 id="summary-of-key-points-and-considerations">Summary of key points and considerations<a class="headerlink" href="#summary-of-key-points-and-considerations" title="Permanent link">&para;</a></h3>
+<p>This document explores the advantages and limitations of using AI language models like ChatGPT and Bard in higher education, along with ethical considerations and policy recommendations. While these models can enhance individualized learning experiences and efficiency, they may exacerbate the digital divide and disseminate misinformation. Policy recommendations include promoting algorithmic transparency, mitigating biases, and providing digital literacy and training.</p>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://bard.google.com/">Google. (2023)</a>. Bard (May 23 version), Large Language Model.</li>
+<li><a href="https://chat.openai.com/?model=gpt-4">OpenAI. (2023)</a>. ChatGPT (May 24 version), Large language model.</li>
+<li><a href="https://www.notion.so/blog/introducing-notion-ai">Notion AI (2023)</a>. AI workspace.</li>
+<li><a href="https://journals.sagepub.com/doi/pdf/10.3102/0013189X013006004?casa_token=JCrEnSeL_8oAAAAA:jI8rsG7OR2hKvhEIf8bS8QmBGqJf9Vwb5zMI2KAI2iFK1_fk6Zgg-SgyLtjUjcm8gjlBMxOaholk">Bloom, B. S. (1984)</a>. <em>The 2 sigma problem: The search for methods of group instruction as effective as one-to-one tutoring</em>. Educational Researcher, 13(6), 4-16.</li>
+<li><a href="http://www.acousticslab.org/dots_sample/general/BonkAndZhang2006.pdf">Bonk, C. J., &amp; Zhang, K. (2006)</a>. <em>Introducing the R2D2 model: Online learning for the diverse learners of this world</em>. Distance Education, 27(2), 249-264.</li>
+<li><a href="https://ora.ox.ac.uk/objects/uuid:178db677-fa8b-491d-beda-4bacdc9d7069/download_file?safe_filename=Brennen%2520-%2520COVID%252019%2520Misinformation%2520FINAL.pdf&amp;file_format=pdf&amp;type_of_work=Record">Brennen, J. S., Simon, F. M., Howard, P. N., &amp; Nielsen, R. K. (2020)</a>. Types, sources, and claims of COVID-19 misinformation (Doctoral dissertation, University of Oxford).</li>
+<li><a href="https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf">Brown, T. B., et al. (2020)</a>. <em>Language models are few-shot learners</em>. arXiv preprint arXiv:2005.14165.</li>
+<li><a href="https://journals.sagepub.com/doi/pdf/10.1177/2053951715622512">Burrell, J. (2016)</a>. <em>How the machine ‘thinks’: Understanding opacity in machine learning algorithms</em>. Big Data &amp; Society, 3(1), 205395171562251.</li>
+<li><a href="http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf">Buolamwini, J., &amp; Gebru, T. (2018)</a>. <em>Gender shades: Intersectional accuracy disparities in commercial gender classification</em>. Proceedings of the 1<sup>st</sup> Conference on Fairness, Accountability and Transparency, 77-91.</li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S0747563215303101">Corti, K., &amp; Gillespie, A. (2016)</a>. <em>Co-constructing intersubjectivity with artificial conversational agents: People are more likely to tell an embarrassing story when they think the chat agent is not listening</em>. Computers in Human Behavior, 58, 436-443.</li>
+<li><a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=d4af6b6974d0ebc6e9c674a99c488962ac11e431">Entwistle, N. (2000)</a>. <em>Promoting deep learning through teaching and assessment: Conceptual frameworks and educational contexts</em>. 1<sup>st</sup> Annual Conference of the Teaching and Learning Research Programme, Leicester.</li>
+<li><a href="https://www.learntechlib.org/p/171050/">Jonassen, D. (1994)</a>. <em>Thinking technology: Toward a constructivist design model</em>. Educational Technology, 34(4), 34-37.</li>
+<li><a href="https://qubeshub.org/community/groups/jan2020/File:/uploads/High-Impact_Educational_Practices_What_They_Are_Who_Has_Access_to_Them_and_Why_They_Matter.pdf">Kuh, G. D. (2008)</a>. <em>High-impact educational practices: What they are, who has access to them, and why they matter</em>. Association of American Colleges and Universities.</li>
+<li><a href="https://eric.ed.gov/?id=ED584840">Luckin, R. (2018)</a>. <em>Machine learning and human intelligence: the future of education for the 21<sup>st</sup> century</em>. British Journal of Educational Studies, 66(3), 302-319.</li>
+<li><a href="https://journals.sagepub.com/doi/pdf/10.1177/2053951716679679">Mittelstadt, B. D., Allo, P., Taddeo, M., Wachter, S., &amp; Floridi, L. (2016)</a>. <em>The ethics of algorithms: Mapping the debate</em>. Big Data &amp; Society, 3(2), 205395171667967.</li>
+<li><a href="https://bera-journals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/bjet.12053">Ng'ambi, D. (2013)</a>. <em>Effective and ineffective uses of emerging technologies: Towards a transformative pedagogical model</em>. British Journal of Educational Technology, 44(4), 652-661.</li>
+<li><a href="https://life-extension.github.io/2020/05/27/GPT%E6%8A%80%E6%9C%AF%E5%88%9D%E6%8E%A2/language-models.pdf">Radford, A., et al. (2019)</a>. <em>Language models are unsupervised multitask learners</em>. OpenAI Blog, 1(8).</li>
+<li><a href="https://scholar.alaqsa.edu.ps/9195/1/Artificial%20Intelligence%20A%20Modern%20Approach%20%283rd%20Edition%29.pdf%20%28%20PDFDrive%20%29.pdf">Russell, S., &amp; Norvig, P. (2016)</a>. <em>Artificial intelligence: a modern approach</em>. Malaysia; Pearson Education Limited.</li>
+<li><a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=sUY3AgAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=Selwyn,+N.+(2013).+_Distrusting+educational+technology:+Critical+questions+for+changing+times_&amp;ots=o4qG1C0zH7&amp;sig=tlYTbR9thUV_VO1hCBxVqqTtX_c#v=onepage&amp;q=Selwyn%2C%20N.%20(2013).%20_Distrusting%20educational%20technology%3A%20Critical%20questions%20for%20changing%20times_&amp;f=false">Selwyn, N. (2013)</a>. <em>Distrusting educational technology: Critical questions for changing times</em>. Routledge.</li>
+<li><a href="https://www.google.com/books/edition/Education_and_Technology/mmbqDAAAQBAJ?hl=en">Selwyn, N. (2016)</a>. Education and technology: Key issues and debates. Bloomsbury Publishing.</li>
+<li><a href="http://www.edtechpolicy.org/AAASGW/Session2/siemens_article.pdf">Siemens, G. (2005)</a>. <em>Connectivism: A learning theory for the digital age</em>. International Journal of Instructional Technology and Distance Learning, 2(1), 3-10.</li>
+<li><a href="https://www.nsrfharmony.org/wp-content/uploads/2017/11/Book-review1.pdf">Turkle, S. (2015)</a>. <em>Reclaiming conversation: The power of talk in a digital age</em>. Penguin Press.</li>
+<li><a href="https://oro.open.ac.uk/70428/1/120290_99Z_Weller_2020-25_Years_of_Ed_Tech.pdf%20">Weller, M. (2020)</a>. <em>25 Years of Ed Tech</em>. Athabasca University Press.</li>
+<li><a href="https://www.tandfonline.com/doi/full/10.1080/17439884.2020.1761641">Williamson, B., Eynon, R., &amp; Potter, J. (2020)</a>. <em>Pandemic politics, pedagogies and practices: digital technologies and distance education during the coronavirus emergency</em>. Learning, Media and Technology, 45(2), 107-114.</li>
+<li><a href="https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-019-0171-0?fbclid=IwAR0vSk4s9y0V0vExpcAel6yL4LEb-PrNDnlreOB5WrGxlu8-3awpYGgK6Ig">Zawacki-Richter, O., Marín, V. I., Bond, M., &amp; Gouverneur, F. (2019)</a>. <em>Systematic review of research on artificial intelligence applications in higher education–where are the educators?</em> International Journal of Educational Technology in Higher Education, 16(1), 39.</li>
+<li><a href="http://dspace.ashoka.edu.in/bitstream/123456789/4220/1/Shoshana%20Zuboff%20-%20The%20Age%20of%20Surveillance%20Capitalism.pdf">Zuboff, S. (2019)</a>. <em>The age of surveillance capitalism: The fight for a human future at the new frontier of power</em>. Profile Books.</li>
+</ul>
+<hr />
+<p>Created: 05/28/2023 (C. Lizárraga);
+Last update: 05/30/2023 (C. Lizárraga)</p>
+<p><img alt="CC BY-NC_SA" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="128" /></p>
+<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+<p><img alt="UA Data Science Institute" src="https://datascience.arizona.edu/sites/default/files/Data%20Science%20Institute_Webheader%20%281%29.svg" width="256" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../PromptEngBasics/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Prompt Engineneering Basics" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Prompt Engineneering Basics
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../ChatGPT_HE/" class="md-footer__link md-footer__link--next" aria-label="Next: ChatGPT in Higher Education" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              ChatGPT in Higher Education
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 University of Arizona, Data Science Institute
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://www.datascience.arizona.edu/person/carlos-lizarraga" target="_blank" rel="noopener" title="www.datascience.arizona.edu" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M96 256h32v256H0V352h32v-32h32v-32h32v-32zm416 96v160H384V256h32v32h32v32h32v32h32zM320 64h32v384h-32v-32H192v32h-32V64h32V32h32V0h64v32h32v32zm-32 64h-64v64h64v-64z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://orcid.org/0000-0002-0893-4268" target="_blank" rel="noopener" title="orcid.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/clizarraga-UAD7" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/carloslizarragac/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/carlos.lizarragac/" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://mastodon.online/@clizarraga" target="_blank" rel="noopener" title="mastodon.online" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://hub.docker.com/u/clizarraga" target="_blank" rel="noopener" title="hub.docker.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.path", "navigation.expand", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.top", "toc.integrate", "toc.follow", "content.tabs.link", "content.code.annotation", "content.code.copy", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
